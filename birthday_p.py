@@ -4,7 +4,7 @@ import os
 
 # Set your OpenAI API key
 
-client = OpenAI(api_key=st.secrets("OPENAI_API_KEY"))
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.set_page_config(page_title="🎂 Birthday Wishes for Pinku", page_icon="💖")
 
